@@ -24,7 +24,20 @@ The widget renders a card with 5 tabs pulled directly from the GitHub API:
 
 ## Quick Start
 
-**3 steps. No npm. No build tools.**
+### Option A : One-liner (Fastest)
+Run this command inside your project folder. It will create an `assets` directory, enter it, and download the necessary files:
+
+**Linux / macOS:**
+```bash
+mkdir -p assets && cd assets && curl -sSLO [https://raw.githubusercontent.com/ImDarling-bit/github-widget/refs/heads/main/widget/github-widget.js](https://raw.githubusercontent.com/ImDarling-bit/github-widget/refs/heads/main/widget/github-widget.js) -sSLO [https://raw.githubusercontent.com/ImDarling-bit/github-widget/refs/heads/main/widget/github-widget.css](https://raw.githubusercontent.com/ImDarling-bit/github-widget/refs/heads/main/widget/github-widget.css)
+```
+
+**Windows (PowerShell):**
+```powershell
+mkdir assets; cd assets; iwr [https://raw.githubusercontent.com/ImDarling-bit/github-widget/refs/heads/main/widget/github-widget.js](https://raw.githubusercontent.com/ImDarling-bit/github-widget/refs/heads/main/widget/github-widget.js) -OutFile github-widget.js; iwr [https://raw.githubusercontent.com/ImDarling-bit/github-widget/refs/heads/main/widget/github-widget.css](https://raw.githubusercontent.com/ImDarling-bit/github-widget/refs/heads/main/widget/github-widget.css) -OutFile github-widget.css
+```
+
+### Option A : 3 steps. No npm. No build tools.
 
 **1. Copy the files** to your project:
 ```
