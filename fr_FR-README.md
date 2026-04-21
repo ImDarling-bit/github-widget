@@ -3,7 +3,8 @@
 > Un widget sans dépendance à glisser-déposer dans n'importe quelle page web pour afficher des informations GitHub en direct.
 
 **Langues :** [English](README.md) | Français
-**démo :** [Widget](https://imdarling-bit.github.io/github-widget/)
+
+**Démo :** [Widget](https://imdarling-bit.github.io/github-widget/)
 
 ---
 
