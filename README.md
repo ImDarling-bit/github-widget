@@ -2,7 +2,9 @@
 
 > A zero-dependency, drop-in widget that displays live GitHub repository information on any web page.
 
-🌐 **Languages:** English | [Français](fr_FR-README.md)
+**Languages:** English | [Français](fr_FR-README.md)
+
+**Demo :** [Widget](https://imdarling-bit.github.io/github-widget/)
 
 ---
 
