@@ -27,14 +27,19 @@ Le widget affiche une carte avec 5 onglets alimentés directement par l'API GitH
 ### Option A : Installation en une ligne (Le plus rapide)
 Exécutez cette commande à la racine de votre projet. Elle créera un dossier `assets`, s'y déplacera, et téléchargera les fichiers requis :
 
-**Linux / macOS :**
+**Linux :**
 ```bash
-mkdir -p assets && cd assets && curl -sSLO [https://raw.githubusercontent.com/ImDarling-bit/github-widget/refs/heads/main/widget/github-widget.js](https://raw.githubusercontent.com/ImDarling-bit/github-widget/refs/heads/main/widget/github-widget.js) -sSLO [https://raw.githubusercontent.com/ImDarling-bit/github-widget/refs/heads/main/widget/github-widget.css](https://raw.githubusercontent.com/ImDarling-bit/github-widget/refs/heads/main/widget/github-widget.css)
+curl -sSL https://raw.githubusercontent.com/ImDarling-bit/github-widget/main/install.sh | bash
 ```
 
-**Windows (PowerShell) :**
+**MacOS :**
+```zsh
+curl -sSL https://raw.githubusercontent.com/ImDarling-bit/github-widget/main/install.zsh | zsh
+```
+
+**Windows (PowerShell):**
 ```powershell
-mkdir assets; cd assets; iwr [https://raw.githubusercontent.com/ImDarling-bit/github-widget/refs/heads/main/widget/github-widget.js](https://raw.githubusercontent.com/ImDarling-bit/github-widget/refs/heads/main/widget/github-widget.js) -OutFile github-widget.js; iwr [https://raw.githubusercontent.com/ImDarling-bit/github-widget/refs/heads/main/widget/github-widget.css](https://raw.githubusercontent.com/ImDarling-bit/github-widget/refs/heads/main/widget/github-widget.css) -OutFile github-widget.css
+irm https://raw.githubusercontent.com/ImDarling-bit/github-widget/main/install.ps1 | iex
 ```
 
 ### Option B : 3 étapes. Sans npm. Sans outil de build.
