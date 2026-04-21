@@ -37,7 +37,7 @@ mkdir -p assets && cd assets && curl -sSLO [https://raw.githubusercontent.com/Im
 mkdir assets; cd assets; iwr [https://raw.githubusercontent.com/ImDarling-bit/github-widget/refs/heads/main/widget/github-widget.js](https://raw.githubusercontent.com/ImDarling-bit/github-widget/refs/heads/main/widget/github-widget.js) -OutFile github-widget.js; iwr [https://raw.githubusercontent.com/ImDarling-bit/github-widget/refs/heads/main/widget/github-widget.css](https://raw.githubusercontent.com/ImDarling-bit/github-widget/refs/heads/main/widget/github-widget.css) -OutFile github-widget.css
 ```
 
-### Option B : étapes. Sans npm. Sans outil de build.
+### Option B : 3 étapes. Sans npm. Sans outil de build.
 
 **1. Copiez les fichiers** dans votre projet :
 ```
