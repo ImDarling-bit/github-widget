@@ -296,6 +296,42 @@ Uses `fetch`, `Promise.all`, and `querySelectorAll` — no polyfills needed for 
 
 ---
 
+## Attribution
+
+This project is open source under the **MIT License**. You are free to use, modify, and distribute it — but a credit is required in the following cases:
+
+### If you use the widget on your site or app
+
+Add a visible link back to the original repository in your page or documentation:
+
+```html
+<!-- GitHub Widget by Noah | _ImDarling_ — https://github.com/ImDarling-bit/github-widget -->
+```
+
+Or as a footer / about link:
+
+```
+GitHub Widget by _ImDarling_ (https://github.com/ImDarling-bit/github-widget)
+```
+
+### If you fork the repository
+
+- Keep the original copyright notice in the `LICENSE` file.
+- Mention the original project and author in your `README`:
+
+```markdown
+Based on [github-widget](https://github.com/ImDarling-bit/github-widget) by Noah | _ImDarling_
+```
+
+### What is NOT required
+
+- You do **not** need to credit for private, internal use.
+- You do **not** need to open-source your own project when using this widget.
+
+---
+
 ## License
 
-MIT — free to use, modify, and distribute.
+MIT © 2026 Noah | _ImDarling_
+
+The MIT License allows free use, modification, and distribution. The copyright notice (above) and this license must be kept in all copies or substantial portions of the software. See [LICENSE](LICENSE) for the full text.
